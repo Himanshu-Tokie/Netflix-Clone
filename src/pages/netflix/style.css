@@ -1,0 +1,270 @@
+.container{
+  background: 
+      linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), /* Gradient layer */
+      url('../../assets/image/MainImg.jpeg'); /* Background image layer */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.landingPage{
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1280px) {
+  #header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+    align-items: center;
+  }  
+}
+@media screen and (min-width:1280px) {
+  #header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18rem;
+    margin-left: 18rem;
+    padding: 1.2rem 3rem;
+    align-items: center;
+  }  
+}
+
+
+#sectionContainer{
+  text-align: center;
+}
+
+.input{
+  color: white;
+  font-weight: bold;
+  padding-left: 1rem;
+  width: 22rem;
+  border-radius: 0.25rem;
+  border:solid; 
+  border-width: 0.1px;
+  border-color:rgb(118, 118, 118);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+}
+
+::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.textSection{
+  color: rgb(255,255,255);
+}
+
+.emailInput{
+  justify-content: center ;
+}
+
+#getStarted{
+  padding-left: 0.8rem;  
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:320px) {
+  #header{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width: 960px){
+  #header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.font{
+  font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+}
+
+@media screen and (min-width: 960px) {
+  #logo{
+    height: 4.2em;
+  }
+  #header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    align-items: center;
+  }
+  .title{
+    font-size: 3rem;
+    margin-bottom: 0px;
+  }
+  .content{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.8rem 0rem;
+    font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  }
+  .description{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #logo{
+    height: 3rem;
+  }
+  .title{
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  .content{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 1.8rem 0rem;
+    font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  }
+  .description{
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  }
+}
+
+.footerText{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.7);
+  font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+}
+
+.listText{
+  color: rgba(255,255,255,0.7);
+  padding: 0.5rem 1rem 0.8rem 0rem;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  font-family:'Netflix Sans Regular','Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+#number{
+  text-decoration: underline;
+}
+
+#section{
+  padding-top: 7.8rem;
+  padding-bottom: 14rem;
+}
+
+#breaker{
+  height: 0.6rem;
+  background-color: rgb(35, 35, 35);;
+}
+
+#footer{
+  background-color: #000;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* .footerContainer{
+  width: 100%;
+  max-width: 1400px;
+} */
+.footerList{
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  list-style: none;
+  font-weight: 700;
+}
+
+#footerLanguageInput{
+  width: 10rem;
+}
+
+#india{
+  color: rgba(255,255,255,0.7);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width:190px){
+  .flex{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:475px) {
+  #section{
+    padding-top: 4.8rem;
+    padding-bottom: 7rem;
+  }
+  #footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .flex{
+    flex-direction: row;
+  }
+  .flex2{
+    flex-direction: column;
+  }
+  #getStarted{
+    padding-left: 0rem;  
+    padding-top: 1rem;
+  }
+  .input{
+    width: 75%;
+    overflow: hidden;
+    height: 3rem;
+    align-self: center;
+
+  }
+  .listText{
+    /* flex: 0 0 200px; */
+  }
+  .footerContainer {
+    max-width: 1200px;
+    margin-left: 0rem
+  }
+}
+
+@media screen and (max-width: 1420px)and (min-width:475px) {
+  .footerContainer {
+    max-width: 1000px;
+    margin-left: 4rem
+  }
+  .listText{
+    flex: 0 0 200px;
+  }
+}
+
+@media screen and (min-width: 1421px) {
+  .footerContainer {
+    max-width: 1400px;
+    margin-left: 11rem
+  }
+  .listText{
+    flex: 0 0 300px;
+  }
+}

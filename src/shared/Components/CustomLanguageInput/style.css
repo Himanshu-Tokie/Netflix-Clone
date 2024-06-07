@@ -1,0 +1,49 @@
+#languageContainer{
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    align-items: center;
+    border: solid;
+    border-width: 0.5px;
+    border-radius: 0.4em;
+    border-color: aliceblue;
+    position: relative;
+    margin-right: 1rem;
+    border-color:rgb(118, 118, 118);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 0.5px;
+    img{
+        position: absolute;
+        left:10px
+    }
+}
+
+#language{
+    width: 140px;
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+
+@media screen and (max-width:450px) {
+    #language{
+        width: 100px
+    }
+}
+#language:focus-visible {
+    outline: white solid 2px;
+}
+/* @media screen and (max-width: 600px) {
+    #language option {
+      display: none;
+    }
+  
+    #language option::after {
+      content: '';
+    }
+  } */
