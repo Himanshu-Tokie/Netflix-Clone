@@ -1,0 +1,23 @@
+:root {
+    --primary: rgb(229, 9, 20);
+}
+
+.buttonn{
+    background-color: var(--primary);
+    border-radius: 0.5em;
+    font-size: .875rem;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* padding: 0rem 1rem; */
+    border: 0px;
+    height: 2rem;
+    width: 5.4rem;
+}
+
+.buttonn:hover{
+    background-color: rgb(193, 17, 25);
+}
+/* @media screen and (max-width:) {
+    
+} */

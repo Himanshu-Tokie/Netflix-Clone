@@ -1,0 +1,31 @@
+:root {
+    --primary: rgb(229, 9, 20);
+}
+
+.button{
+    background-color: var(--primary);
+    border-radius: 0.2em;
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 0px;
+    height: 3.5rem;
+    width: 13.8rem;
+}
+
+.button:hover{
+    background-color: rgb(193, 17, 25);
+}
+
+#arrow{
+    padding-left: 1rem;
+}
+
+@media screen and (max-width:475px) {
+    .button{
+        height: 3.5rem;
+        width: 75%;
+        font-size: 1.5rem;
+    }
+  }
