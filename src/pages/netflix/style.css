@@ -1,4 +1,4 @@
-.container{
+.containerHeader{
   background: 
       linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), /* Gradient layer */
       url('../../assets/image/MainImg.jpeg'); /* Background image layer */
@@ -207,6 +207,18 @@
   color: rgba(255,255,255,0.7);
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+#section2{
+  height: 500px;
+}
+
+.goTop{
+
+}
+
+.gotTopHidden{
+
 }
 
 @media screen and (max-width:190px){

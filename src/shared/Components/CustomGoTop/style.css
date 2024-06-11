@@ -1,0 +1,13 @@
+#btn-back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+  }
+
+  .goTop{
+    display: block;
+  }
+  .goTopHidden{
+    display: none;
+  }
